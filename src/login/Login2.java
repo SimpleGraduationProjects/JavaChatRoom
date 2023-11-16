@@ -16,7 +16,7 @@ import java.net.UnknownHostException;
 import java.util.HashMap;
 import java.util.Properties;
 
-public class Login extends JFrame {
+public class Login2 extends JFrame {
 
     private JPanel contentPane;
     private JTextField textField;
@@ -31,7 +31,7 @@ public class Login extends JFrame {
             public void run() {
                 try {
                     // Æô¶¯µÇÂ½½çÃæ
-                    Login frame = new Login();
+                    Login2 frame = new Login2();
                     frame.setVisible(true);
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -43,10 +43,10 @@ public class Login extends JFrame {
     /**
      * Create the frame.
      */
-    public Login() {
+    public Login2() {
         setTitle("µÇÂ¼\n");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setBounds(400, 160, 650, 500);
+        setBounds(400, 160, 450, 300);
         contentPane = new JPanel() {
             private static final long serialVersionUID = 1L;
 
